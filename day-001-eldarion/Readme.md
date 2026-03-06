@@ -45,7 +45,7 @@ Adresse IP utilisées :
 ---
 Schéma Réseau : 
 
-![schema_reseau_base](day-001-schema.p,g)
+![schema_reseau_base](day-001-schema.png)
 
 ## ⚙️ Configuration
 
@@ -71,3 +71,4 @@ for host in hosts:
     else:
 
         print(f"{host} est INJOIGNABLE")
+
