@@ -28,9 +28,9 @@ Technologies utilisées :
 
 ## 🛰 Topologie
 
-Command Router  
+Routeur Principal 
 │  
-├── Switch Habitation → VM Admin  
+├── Switch Habitation → PC Admin  
 │  
 └── Switch Laboratoire → Serveur Base  
 
@@ -43,6 +43,9 @@ Adresse IP utilisées :
 | Serveur Base | 192.168.1.1 |
 
 ---
+Schéma Réseau : 
+
+![schema_reseau_base](day-001-schema.p,g)
 
 ## ⚙️ Configuration
 
@@ -66,4 +69,5 @@ for host in hosts:
     if response == 0:
         print(f"{host} est joignable")
     else:
+
         print(f"{host} est INJOIGNABLE")
